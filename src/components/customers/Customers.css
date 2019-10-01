@@ -1,0 +1,16 @@
+.block-center {
+    width: 80%;
+    margin: 0 auto;
+}
+.block-center .darkgray{
+    background-color: darkgray;
+}
+.block-center .dataTables_wrapper>.row:first-child{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.block-center .dataTables_wrapper>.row:first-child .dataTables_filter>label{
+    width: 500px;
+    color: transparent;
+}
